@@ -2,23 +2,27 @@
 
 ## Objective
 
-Establish foundational security controls for privileged Microsoft Entra identities.
+Establish a secure administrative identity baseline for privileged Microsoft Entra accounts before implementing broader identity security controls.
 
 ---
 
 ## Business Need
 
-Privileged administrator accounts are among the highest-value targets in any cloud environment. This initiative establishes a secure administrative baseline before implementing more advanced identity protection controls.
+Administrative identities represent the highest-value targets within Microsoft Entra. Establishing strong authentication and Conditional Access policies significantly reduces the risk of tenant compromise resulting from credential theft or phishing attacks.
 
 ---
 
 ## Technologies
 
-- Microsoft Entra ID
-- Microsoft 365 Business Premium
-- Conditional Access
-- Multi-Factor Authentication
-- Role-Based Access Control (RBAC)
+Microsoft 365 Business Premium
+
+Microsoft Entra ID
+
+Role-Based Access Control
+
+Conditional Access
+
+Microsoft Authenticator
 
 ---
 
@@ -26,43 +30,55 @@ Privileged administrator accounts are among the highest-value targets in any clo
 
 ### Administrative Accounts
 
-Configured dedicated administrative accounts for tenant administration.
+Configured dedicated administrative accounts.
 
-### Security Groups
+### Role-Based Access Control
 
-Implemented role-based security groups for administrative delegation.
+Implemented administrative security groups.
 
-### Role Assignment
-
-Assigned the Global Administrator role through group membership.
+Assigned Global Administrator through group membership.
 
 ### Conditional Access
 
-Implemented:
+Created:
 
-**CA-001 | Administrative Access Protection**
+CA-001 | Administrative Access Protection
 
-Configuration:
+Configuration
 
-- State: Report-only
-- Scope: Built-in administrative roles
-- Resources: All cloud resources
-- Grant Control: Require multifactor authentication
-
+- Microsoft recommended template
+- Report-only deployment
+- Applies to all built-in privileged administrator roles
+- Protects all cloud resources
+- Requires multifactor authentication
 ---
 
 ## Validation
 
-- ✅ Policy deployed successfully
-- ✅ Microsoft recommended template utilized
-- ⏳ "What If" validation pending
-- ⏳ Production enforcement pending
+### What If Evaluation
+
+Policy was successfully evaluated using the Microsoft Entra What If tool.
+
+Findings
+
+- Policy correctly targeted privileged directory roles.
+- Current administrative account was excluded by the Microsoft template.
+- Policy did not apply because the excluded user matched the sign-in simulation.
+- Validation confirmed the template behaved exactly as designed.
+
+---
+
+## Lessons Learned
+
+Microsoft's recommended Conditional Access templates automatically exclude the current administrator during initial deployment to reduce the risk of accidental administrative lockout.
+
+Future iterations will replace this exclusion with a dedicated emergency access account.
 
 ---
 
 ## Future Enhancements
 
-- Dedicated break-glass account
-- Legacy authentication blocking
-- User MFA baseline
-- Authentication Strengths
+- Create dedicated break-glass account
+- Remove administrative account exclusion
+- Validate enforcement
+- Enable production deployment

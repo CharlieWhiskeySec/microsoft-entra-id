@@ -1,4 +1,8 @@
-# Microsoft Entra ID
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/02a7bd81-ee10-4cf1-aef9-c0649a03a4ea" width="200">
+</p>
+
+<h1 align="center">Microsoft Entra ID</h1>
 
 Enterprise Microsoft Entra ID security projects built within the Charlie Whiskey Security Labs (CWSL) enterprise environment.
 

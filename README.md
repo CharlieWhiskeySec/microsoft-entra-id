@@ -110,3 +110,22 @@ Securing enterprise applications through:
 - Access Reviews
 - Privileged Identity Management (where licensing permits)
 - Identity monitoring and investigation
+
+---
+
+---
+
+## Related Projects
+
+This repository is part of the **Charlie Whiskey Security Labs (CWSL)** enterprise environment.
+
+| Project | Description |
+|---------|-------------|
+| 🏢 **Charlie Whiskey Security Labs** | Enterprise environment and project hub |
+| 🖥️ **Active Directory Security Lab** | On-premises identity infrastructure |
+| 📊 **Splunk Detections** | Detection engineering and SIEM content |
+| 🔎 **SOC Investigations** | Security investigations and incident response |
+| 🐧 **Linux Administration** | Linux administration and systems management |
+
+**➡️ Enterprise Hub:**  
+https://github.com/CharlieWhiskeySec/charlie-whiskey-security-labs

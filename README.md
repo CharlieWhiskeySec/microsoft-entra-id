@@ -150,11 +150,11 @@ Rather than relying exclusively on tenant-wide baseline protections, individual 
 
 | Policy | Purpose | Status |
 |---|---|---|
-| CA-001 | Require MFA for All Users | ✅ Implemented |
-| CA-002 | Require Compliant Device | 🧪 Report-only |
-| CA-003 | Block Legacy Authentication | 📅 Planned |
-| CA-004 | Require MFA for Administrators | 📅 Planned |
-| CA-005 | Risk-Based Identity Protection | 📅 Planned |
+| [**CA-001 — Require MFA for All Users**](conditional-access/CA-001-require-mfa/) | Establish baseline MFA protection for cloud access | ✅ Implemented |
+| [**CA-002 — Require Compliant Device**](conditional-access/CA-002-require-compliant-device/) | Introduce device trust into cloud access decisions | 🧪 Report-only |
+| **CA-003 — Block Legacy Authentication** | Prevent authentication using legacy protocols | 📅 Planned |
+| **CA-004 — Require MFA for Administrators** | Strengthen authentication for privileged identities | 📅 Planned |
+| **CA-005 — Risk-Based Identity Protection** | Respond to risky users and sign-ins | 📅 Planned |
 
 ---
 

@@ -9,12 +9,7 @@ Rather than functioning as a collection of isolated lab exercises, the environme
 ---
 ## Project Navigation
 
-[Conditional Access](#conditional-access-framework) •
-[Hybrid Identity](#hybrid-identity) •
-[Identity Lifecycle](#identity-lifecycle-foundation) •
-[Authentication](#authentication-modernization) •
-[Application Security](#enterprise-application-security) •
-[Roadmap](#future-roadmap)
+[Conditional Access](#conditional-access-framework) • [Hybrid Identity](#hybrid-identity) • [Identity Lifecycle](#identity-lifecycle-foundation) • [Authentication](#authentication-modernization) • [Application Security](#enterprise-application-security) • [Roadmap](#future-roadmap)
 ---
 
 ## Objectives

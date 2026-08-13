@@ -7,6 +7,15 @@ This repository documents the design, implementation, testing, and validation of
 Rather than functioning as a collection of isolated lab exercises, the environment is being developed as a simulated enterprise identity architecture integrating cloud identity, on-premises Active Directory, Conditional Access, authentication controls, security monitoring, and identity lifecycle management.
 
 ---
+## Project Navigation
+
+[Conditional Access](#conditional-access-framework) •
+[Hybrid Identity](#hybrid-identity) •
+[Identity Lifecycle](#identity-lifecycle-foundation) •
+[Authentication](#authentication-modernization) •
+[Application Security](#enterprise-application-security) •
+[Roadmap](#future-roadmap)
+---
 
 ## Objectives
 
@@ -155,6 +164,8 @@ Rather than relying exclusively on tenant-wide baseline protections, individual 
 | **CA-003 — Block Legacy Authentication** | Prevent authentication using legacy protocols | 📅 Planned |
 | **CA-004 — Require MFA for Administrators** | Strengthen authentication for privileged identities | 📅 Planned |
 | **CA-005 — Risk-Based Identity Protection** | Respond to risky users and sign-ins | 📅 Planned |
+
+> Each implemented Conditional Access project includes policy configuration, security rationale, validation methodology, evidence, and lessons learned.
 
 ---
 
